@@ -120,7 +120,7 @@ require([
             resource: {
               primitive: "sphere"
             },
-            material: { color: [142, 077, 069, 0.8] },
+            material: { color: [142, 77, 69, 0.8] },
             depth: 10000,
             height: 10000,
             width: 10000

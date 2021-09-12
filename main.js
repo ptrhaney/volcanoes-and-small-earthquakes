@@ -120,7 +120,7 @@ require([
             resource: {
               primitive: "sphere"
             },
-            material: { color: [142, 77, 69, 0.8] },
+            material: { color: [0, 255, 0, 0.8] },
             depth: 10000,
             height: 10000,
             width: 10000
@@ -134,7 +134,7 @@ require([
           axis: "all",
           stops: [
             { value: 4.5, size: 30000, label: "<15%" },
-            { value: 8, size: 70000, label: "25%" }
+            { value: 7, size: 50000, label: "25%" }
           ]
         },
         {
@@ -144,7 +144,7 @@ require([
             title: "Magnitude"
           },
           stops: [
-            { value: 4.5, color: [142, 77, 69], label: "4.5 - 6" },
+            { value: 4.5, color: [0, 255, 0], label: "4.5 - 6" },
             { value: 7, color: [179, 0, 0], label: ">7" }
           ]
         }
